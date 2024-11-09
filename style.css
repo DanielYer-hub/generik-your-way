@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Grenze+Gotisch:wght@100..900&display=swap');
+.head-page{
+    h1{font-family: "Germania One", system-ui; } 
+    text-align: center;
+    margin-top: 15%;
+}
+.head-page h1{
+    font-size: 50px;
+    color: #010101e0;
+}
+body{
+    margin: 0;
+    background-image: url(images/start-page.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.information{
+    height: 100vh;
+    width: 20vw;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.484),rgba(255, 255, 255, 0.349));
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    padding: 10px;
+
+}
+.information p{
+    /* font-family: "Grenze Gotisch", serif; */
+    font-family: "Germania One", system-ui;
+    font-size: 30px;
+    font-weight: 500;
+    color: #010101;
+    text-align: left;
+    padding: 10px;
+    word-spacing: 2px;
+   
+}
+#fraction h2{
+    font-family: "Germania One", system-ui;
+    font-size: 30px;
+    color: #010101e0;
+}
+select{
+    font-family: "Grenze Gotisch", serif;
+    margin:10px;
+    padding: 5px;
+    background: linear-gradient(to right, rgba(187, 174, 101, 0.484),rgba(255, 255, 255, 0.349));
+    font-size: 2vh;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #010101c5;
+    /* background-image: url(images/bone3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(236, 232, 231, 0.884); */
+}
+button{
+    margin: 3vh;
+    padding: 10px;
+    font-family:  "Germania One", system-ui;
+    font-size: 3vh;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #010101c5;
+    background-image: url(images/bone3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(248, 247, 247, 0.904);
+}
+
